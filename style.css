@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(202, 234, 224);
+}
+#col1{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+
+}
+
+input{
+    text-align: right;
+    width: 300px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+}
+#row-num{
+    margin-top: 20px;
+}
+button{
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.box{
+    background-color: gray;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#result{
+    margin-bottom: 25px;
+    height: 35px;
+    font-weight:bold ;
+    border-radius: 5px;
+    padding-right: 15px;
+}
+
+#one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#zero{
+    background-color: rgb(53, 53, 62);
+    color: white;
+}
+#clear{
+    background-color: red;
+    color: white;
+}
+#subtract,#add,#multi,#divide{
+    background-color: rgb(234, 117, 8);
+}
+#equal{
+    background-color: rgb(20, 207, 20);
+    color: white;
+}
+#subtract,#add{
+    font-size: 20px;
+}
+#ans{
+    text-align: right;
+    margin-right: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+button:hover {
+    width: 52px;
+    height: 52px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(61, 59, 59);
+  }
+
+#description{
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(3, 70, 82);
+    text-align: center;
+    margin-top: 25px;
+  }
+
+#title{
+    color: rgb(176, 7, 7);
+    text-align: center;
+    margin-top: 40px;
+}
